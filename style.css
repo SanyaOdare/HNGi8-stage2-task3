@@ -38,7 +38,7 @@ p {
 
 .container > div {
   cursor: pointer;
-  height: 210px;
+  height: 250px;
   background-size: cover;
   background-attachment: fixed;
   object-position: 50% 50%;
