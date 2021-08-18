@@ -8,11 +8,141 @@
 
 body {
   font-family: 'Rajdhani', sans-serif;  
-  -webkit-font-smoothing: antialiased;  
+  -webkit-font-smoothing: antialiased;
+  background: #333;
+  color: #ffffff;
 }
 
-/* HEADER */
+h1 {
+  font-size: 50px;
+  font-weight: 300;
+  margin: 10px;
 
-.main-hd {
-  list-style-type: none;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.container > div {
+  cursor: pointer;
+  height: 210px;
+  background-size: cover;
+  background-attachment: fixed;
+  object-position: 50% 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.5s ease-in;
+}
+
+.container > div:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+.container > div:nth-of-type(1) {
+  grid-column: 1 / 3;
+}
+
+.container > div:nth-of-type(6) {
+  grid-column: 3 / 5;
+}
+
+.container > div:nth-of-type(9) {
+  grid-column: 3 / 5;
+}
+
+.container > div:nth-of-type(10) {
+  grid-column: 1 / 3;
+}
+
+.bg1 {
+  background: #913026;
+}
+
+.bg2 {
+  background: url('./bg-2.jpg');
+  color: #ccc;
+}
+
+footer {
+  text-align: center;
+  margin-top: 35px ;
+  margin-bottom: 45px;
+}
+
+/* MEDIA QUERY / max-width: 767px */
+
+@media (max-width: 360px) {
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .container > div {    
+    height: 150px !important;
+    background-size: cover;
+    background-attachment: fixed;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: all 0.5s ease-in;
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: 100;
+    margin: 5px;
+  
+  }
+  
+  h2 {
+    font-size: 28px;
+    font-weight: 100;
+    margin: 5px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+
+  .container > div:nth-of-type(1) {
+    grid-column: 1 / 3;
+  }
+  
+  .container > div:nth-of-type(6) {
+    grid-column: 3 / 5;
+  }
+  
+  .container > div:nth-of-type(9) {
+    grid-column: 3 / 5;
+  }
+  
+  .container > div:nth-of-type(10) {
+    grid-column: 1 / 3;
+  }
+
+  .bg2 {
+    background: url('./bg-2B.jpg');
+    color: #ccc;
+  }  
 }
