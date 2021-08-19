@@ -233,7 +233,7 @@ div.desc {
 
     #album {
         grid-template-columns: 1fr;
-        padding: 30px 60px;
+        /* padding: 30px 60px; */
     }
 
     .contact {
