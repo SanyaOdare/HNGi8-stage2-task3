@@ -175,6 +175,10 @@ p {
 
 @media (max-width: 1028px) {
 
+    .container-fluid {
+        padding-right: 5%;    
+    }
+
     #container{
         text-align: left;
     }
