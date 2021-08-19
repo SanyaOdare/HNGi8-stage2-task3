@@ -100,8 +100,9 @@ p {
     color: #fff;
 }
 
-#hd-link {
-    margin-bottom: 40px;
+#cv-download {
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .portrait-image{
@@ -112,14 +113,6 @@ p {
 }
 
 /* SKILLS Section */
-
-.container-skill {    
-    position: relative;
-    /* text-align: center; */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-}
 
 .feature-container{
     font-size: 1.5rem;    
@@ -214,7 +207,9 @@ a {
 @media (max-width: 1028px) {
 
     .main-hd-container {        
-        grid-template-columns: 1fr;        
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
     }
 
     .container-fluid {
