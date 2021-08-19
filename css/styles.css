@@ -231,9 +231,10 @@ div.desc {
         text-align: left;
     }
 
-    #album {
+    .album {
         grid-template-columns: 1fr;
-        /* padding: 30px 60px; */
+        justify-content: center;
+        align-items: center;
     }
 
     .contact {
