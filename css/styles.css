@@ -83,7 +83,7 @@ p {
 /* container Section */
 
 #container.container-fluid { /* read from right to left */
-    padding: 3% 15% 7%;
+    padding: 3% 10% 7%;
     text-align: center;
 }
 
@@ -157,7 +157,7 @@ p {
 /* Pricing Section */
 
 #pricing {
-    padding: 100px;    
+    padding: 50px;    
 }
 
 .price-text {
@@ -168,6 +168,10 @@ p {
 .pricing-column {
     padding: 3% 2%;
 }
+a {
+    color: #fff;
+}
+
 
 /* Footer Section */
 
