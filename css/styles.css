@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&display=swap');
 
 body {
-    font-family: 'Rajdhani', sans-serif; 
-    text-align: center;
+    font-family: 'Rajdhani', sans-serif;    
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat-Bold', 900;
-    font-weight: 900;
+    font-family: 'Rajdhani', 700;
+    font-weight: 700;
 }
 
 p {
@@ -17,7 +16,7 @@ p {
 /* Headings */
 
 .big-heading {
-    font-family: 'Rajdhani', 900;
+    font-family: 'Rajdhani', 700;
     font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
@@ -59,12 +58,12 @@ p {
 }
 
 .nav-item {
-    padding: 0 18px;
+    padding: 0 10px;
 }
 
 .nav-link {
     font-size: 1.2rem;
-    font-family: 'Montserrat-Light' 200;
+    font-family: 'Rajdhani' 200;
 }
 
 /* Download Buttons */
@@ -74,20 +73,18 @@ p {
 }
 
 
-/* Title Section */
+/* Main Section */
 
-
-
-#title .container-fluid { /* read from right to left */
+#main.container-fluid { /* read from right to left */
     padding: 3% 15% 7%;
     text-align: left;
 }
 
-/* Title Image */
+/* mainImage */
 
 .portrait-image{
     width: 90%;
-    transform: rotate(15deg);
+    transform: rotate(45deg);
     /* position: absolute; */
     right: 30%;
 }
@@ -98,7 +95,7 @@ p {
     position: relative;
 }
 
-.feature-title {
+.feature-main{
     font-size: 1.5rem;    
 }
 
@@ -166,14 +163,16 @@ p {
     margin: 20px 10px;
 }
 
+/* MEDIA QUERY */
+
 @media (max-width: 1028px) {
 
-    #title {
-        text-align: center;
+    #main{
+        text-align: left;
     }
 
     .portrait-image{
         position: static;
-        transform: rotate(0);
+        transform: rotate(45deg);
     }
 }
