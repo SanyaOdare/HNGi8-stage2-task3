@@ -87,14 +87,24 @@ p {
     text-align: center;
 }
 
-/* containerImage */
+/* container Image */
+
+.main-hd-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0% 20% 0%;
+    background-color: #0b2f2b;
+}
+
+#intro {
+    color: #fff;
+}
 
 .portrait-image{
-    width: 100%;
-    /* transform: rotate(25deg); */
+    width: 90%;
+    /* transform: rotate(10deg); */
     /* position: absolute; */
-    float: inline-end;
-    right: 20%;    
+    right: 20%;
 }
 
 /* SKILLS Section */
@@ -209,6 +219,6 @@ a {
 
     .portrait-image{
         position: static;
-        transform: rotate(45deg);
+        /* transform: rotate(45deg); */
     }
 }
