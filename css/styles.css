@@ -163,22 +163,25 @@ p {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
-    padding: 40px 80px;
-    background-color: #fefefe;
+    padding: 0;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    /* background-color: #fefefe; */
     /* margin-left: 60px;
     margin-right: 60px; */
 }
 
 div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+    /* margin: auto 0; */
+    /* border: 1px solid #ccc; */
+    gap: 0;
+    /* float: left; */
+    /* width: 180px; */
 }
 
-div.gallery:hover {
+/* div.gallery:hover {
     border: 1px solid #777;
-}
+} */
 /*
 div.gallery img {
     width: 100%;
@@ -186,10 +189,10 @@ div.gallery img {
 }
 */
 
-div.desc {
+/* div.desc {
     padding: 15px;
     text-align: center;
-}
+} */
 
 .social-icon {
     margin: 20px 10px;
@@ -235,6 +238,7 @@ div.desc {
         grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
 
     .contact {
