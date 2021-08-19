@@ -90,10 +90,11 @@ p {
 /* containerImage */
 
 .portrait-image{
-    width: 90%;
-    transform: rotate(45deg);
+    width: 100%;
+    /* transform: rotate(25deg); */
     /* position: absolute; */
-    right: 30%;
+    float: inline-end;
+    right: 20%;    
 }
 
 /* SKILLS Section */
@@ -123,8 +124,8 @@ p {
     margin-bottom: 1rem;
 }
 
-.icon:hover {
-    color: #ff4c68;
+.social-icon:hover {
+    color: #8f8f8f;
 }
 
 /* Testimonial Section */
