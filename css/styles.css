@@ -172,11 +172,26 @@ a {
     color: #fff;
 }
 
+.contact {
+    font-size: 2.5rem;
+    font-weight: 4;
+}
+
 
 /* Footer Section */
 
 .social-icon {
     margin: 20px 10px;
+}
+
+.footer-inner {
+    text-align: center;
+    padding: 40px;
+}
+
+.cta-container {
+    text-align: center;
+    padding: 60px;
 }
 
 /* MEDIA QUERY */
