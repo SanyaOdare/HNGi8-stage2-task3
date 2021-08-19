@@ -98,8 +98,12 @@ p {
 
 /* SKILLS Section */
 
-#features {    
+.container-skill {    
     position: relative;
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
 }
 
 .feature-container{
