@@ -100,11 +100,15 @@ p {
     color: #fff;
 }
 
+#hd-link {
+    margin-bottom: 40px;
+}
+
 .portrait-image{
     width: 90%;
     /* transform: rotate(10deg); */
     /* position: absolute; */
-    right: 20%;
+    /* right: 20%; */
 }
 
 /* SKILLS Section */
@@ -185,7 +189,7 @@ a {
 
 .contact {
     font-size: 2.5rem;
-    font-weight: 4;
+    font-weight: 400;
 }
 
 
@@ -209,6 +213,10 @@ a {
 
 @media (max-width: 1028px) {
 
+    .main-hd-container {        
+        grid-template-columns: 1fr;        
+    }
+
     .container-fluid {
         padding-right: 5%;    
     }
@@ -217,8 +225,9 @@ a {
         text-align: left;
     }
 
-    .portrait-image{
-        position: static;
-        /* transform: rotate(45deg); */
+    .contact {
+        font-size: 2rem;
+        font-weight: 400;
     }
+    
 }
