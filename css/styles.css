@@ -135,48 +135,65 @@ p {
     color: #8f8f8f;
 }
 
-#press {
-    background-color: #913026;    
-    padding-bottom: 3%;
-}
-
-.press-logo {
-    width: 10%;
-    margin: 20px 20px 50px;
-}
-
-/* Pricing Section */
-
-#pricing {
-    padding: 50px;    
-}
-
-.price-text {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-.pricing-column {
-    padding: 3% 2%;
-}
-a {
-    color: #fff;
-}
-
 #project-hd {
     text-align: center;
     padding: 60px;
-    background-color: #0b2f2b;
+    background-color: #fefefe;
 }
 
 .project-hd {
     font-size: 2.5rem;
-    color: #fefefe;
+    color: #0b2f2b;
 }
 
 .contact {
     font-size: 2.5rem;
     font-weight: 400;
+}
+
+.fab {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+/* Portfolio Section */
+
+#album {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: #fefefe;
+    /* margin-left: 60px;
+    margin-right: 60px; */
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+/*
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+*/
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: #fefefe;
 }
 
 
@@ -212,6 +229,11 @@ a {
 
     #container{
         text-align: left;
+    }
+
+    #album {
+        grid-template-columns: 1fr;
+        padding: 30px 60px;
     }
 
     .contact {
