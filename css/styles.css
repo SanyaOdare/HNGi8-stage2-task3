@@ -35,7 +35,7 @@ p {
 /* Containers */
 
 .container-fluid {
-    padding: 7% 15%;    
+    padding: 7% 10% 0%;    
 }
 
 /* Sections */
@@ -75,15 +75,19 @@ p {
     margin: 5% 3% 5% 0;
 }
 
+.fa-download {
+    margin-right: 15px;
+}
 
-/* Main Section */
 
-#main.container-fluid { /* read from right to left */
+/* container Section */
+
+#container.container-fluid { /* read from right to left */
     padding: 3% 15% 7%;
     text-align: center;
 }
 
-/* mainImage */
+/* containerImage */
 
 .portrait-image{
     width: 90%;
@@ -98,7 +102,7 @@ p {
     position: relative;
 }
 
-.feature-main{
+.feature-container{
     font-size: 1.5rem;    
 }
 
@@ -171,7 +175,7 @@ p {
 
 @media (max-width: 1028px) {
 
-    #main{
+    #container{
         text-align: left;
     }
 
