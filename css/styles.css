@@ -194,11 +194,6 @@ p {
 
 @media (max-width: 700px) {
 
-    #zuri-logo {
-        width: 70;
-        height: 70;
-    }
-
     .main-hd-container {        
         grid-template-columns: 1fr;
         justify-content: center;
